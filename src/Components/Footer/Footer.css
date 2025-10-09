@@ -1,0 +1,174 @@
+.ftr {
+	background-color: #f6f6f6;
+}
+.footer {
+	height: 93rem;
+	background-color: #f6f6f6;
+	padding: 4rem 2rem 2rem 2.5rem;
+	flex-direction: column;
+	align-items: flex-start;
+	display: flex;
+}
+.intro__logo {
+	width: 9.5rem;
+	height: 3.6rem;
+	margin-bottom: 3rem;
+}
+.intro__desc {
+	font-size: 1.6rem;
+	font-weight: 300;
+	line-height: 200%;
+	color: var(--black-text);
+	margin-bottom: 1rem;
+}
+.access__title {
+	display: flex;
+	align-items: center;
+	gap: 0.7rem;
+	margin-bottom: 3.8rem;
+}
+.access__title svg {
+	width: 2.5rem;
+}
+.access__title span {
+	font-weight: 500;
+	font-size: 1.8rem;
+	line-height: 150%;
+	color: var(--black-text);
+}
+.access__list {
+	padding-right: 2.5rem;
+	list-style-type: disc;
+	color: var(--black-text);
+	margin-bottom: 6rem;
+}
+.access__item {
+	font-weight: 400;
+	font-size: 1.6rem;
+	line-height: 150%;
+}
+.access__item:not(:first-child) {
+	margin-top: 2rem;
+}
+.membership__title {
+	display: flex;
+	align-items: center;
+	gap: 0.7rem;
+	margin-bottom: 2.5rem;
+}
+.membership__title svg {
+	width: 2.5rem;
+}
+.membership__title span {
+	font-weight: 500;
+	font-size: 1.8rem;
+	line-height: 150%;
+	color: var(--black-text);
+}
+.membership__input {
+	display: flex;
+	align-items: center;
+	margin-bottom: 2.2rem;
+}
+.membership__input button {
+	height: 5.6rem;
+	background-color: var(--primary-color);
+	color: var(--white-text);
+	font-size: 1.6rem;
+	font-weight: 500;
+	padding: 1.6rem 4.7rem;
+	border-radius: 0 5px 5px 0;
+	-webkit-border-radius: 0 5px 5px 0;
+	-moz-border-radius: 0 5px 5px 0;
+	-ms-border-radius: 0 5px 5px 0;
+	-o-border-radius: 0 5px 5px 0;
+}
+.membership__input input {
+	direction: ltr;
+	font-weight: 500;
+	font-size: 1.6rem;
+	width: 25.4rem;
+	height: 5.6rem;
+	padding: 1.6rem 6rem 1.6rem 2.5rem;
+	background-color: #ffffff;
+	border-radius: 5px 0 0 5px;
+	-webkit-border-radius: 5px 0 0 5px;
+	-moz-border-radius: 5px 0 0 5px;
+	-ms-border-radius: 5px 0 0 5px;
+	-o-border-radius: 5px 0 0 5px;
+}
+.membership__input input::placeholder {
+	color: #9a9a9a;
+	font-weight: 500;
+	font-size: 1.6rem;
+}
+.membership__desc {
+	display: flex;
+	align-items: center;
+	gap: 1rem;
+}
+.membership__desc:not(:first-child) {
+	margin-top: 1.8rem;
+}
+.membership__desc span {
+	color: var(--black-text);
+	font-weight: 300;
+	font-size: 1.6rem;
+	line-height: 150%;
+}
+.social {
+	margin-top: 5.2rem;
+	border-top: 1px solid #e4e4e4;
+	display: flex;
+	flex-direction: column;
+	width: 100%;
+}
+.social__links {
+	margin-top: 2.4rem;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	gap: 1rem;
+}
+.copyright {
+	margin-top: 2.1rem;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	gap: 0.5rem;
+}
+.copyright p {
+	height: 2rem;
+	font-weight: 400;
+	font-size: 1.4rem;
+	color: var(--black-text);
+}
+/* Tailwind css Mobile first */
+@media (min-width: 1280px) {
+	.footer {
+		flex-direction: row;
+		flex-wrap: wrap;
+		height: min-content;
+		/* padding: 4rem 8rem 2.5rem 8rem; */
+		max-width: 170rem;
+		margin: 0 auto;
+	}
+	.access,
+	.membership {
+		margin-right: 38.5rem;
+	}
+	.access__list {
+		margin-bottom: 0;
+	}
+	.intro__logo {
+		margin-bottom: 1.8rem;
+	}
+	.intro__desc {
+		width: 33rem;
+	}
+	.social {
+		margin-top: 4.5rem;
+		flex-direction: row-reverse;
+		justify-content: space-between;
+	}
+}
