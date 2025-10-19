@@ -83,7 +83,7 @@
 	-moz-border-radius: 9px;
 	-ms-border-radius: 9px;
 	-o-border-radius: 9px;
-	padding: 3rem 1.3rem 1.8rem 1.3rem;
+	padding: 1.3rem 1.1rem;
 	background-color: #fff;
 }
 .card__image {
@@ -105,16 +105,17 @@
 	color: var(--black-text);
 }
 .card__category {
-	font-size: 1.2rem;
-	font-weight: 500;
+	font-size: 1.2rem !important;
+	font-weight: 500 !important;
 	line-height: 150%;
 	color: #b8b8b8 !important;
 	margin-bottom: 1.1rem;
+	text-align: right !important;
 }
 .card__content {
 	width: 22.7rem;
-	font-weight: 300;
-	font-size: 1.2rem;
+	font-weight: 300 !important;
+	font-size: 1.2rem !important;
 	color: #878787 !important;
 	text-align: initial !important;
 }
@@ -161,8 +162,8 @@
 }
 .more {
 	cursor: pointer;
-	z-index: 999;
-	padding-top: 0.9rem;
+	z-index: 994;
+	padding-top: 0.4rem;
 	line-height: 150%;
 	color: #222222;
 	font-size: 1.6rem;
@@ -170,7 +171,7 @@
 	display: flex;
 	align-items: center;
 	justify-content: center;
-	gap: 3.2rem;
+	gap: 2rem;
 	width: 21.7rem;
 	height: 3.7rem;
 	position: absolute;
@@ -230,10 +231,7 @@
 	-ms-transform: translate(-20%, -69%);
 	-o-transform: translate(-20%, -69%);
 }
-.card:not(:first-child) {
-	display: none;
-	visibility: hidden;
-}
+
 /* Tailwind css Mobile first */
 @media (min-width: 1280px) {
 	.blog {
@@ -264,16 +262,20 @@
 		height: 28.2rem;
 	}
 	.blog-swiper {
-		width: 131rem !important;
-		bottom: 59% !important;
+		width: 112rem !important;
+		bottom: 29% !important;
+		overflow: hidden !important;
+		height: 50rem !important;
+		left: 4% !important;
+		padding: 0 4rem 0 7rem !important;
 	}
 	.blog-swiper .swiper-button-next {
-		left: 17%;
-		top: 77%;
+		left: -0.6%;
+		top: 63%;
 	}
 	.blog-swiper .swiper-button-prev {
-		right: -7%;
-		top: 77%;
+		right: -0.6%;
+		top: 63%;
 	}
 	.card {
 		min-width: 30rem;
@@ -293,12 +295,12 @@
 	}
 	.card__category {
 		margin-top: 1.1rem;
-		font-size: 1.4rem;
+		font-size: 1.4rem !important;
 		width: 26.4rem;
 		margin-bottom: 1.9rem;
 	}
 	.card__content {
-		font-size: 1.4rem;
+		font-size: 1.4rem !important;
 		width: 26.4rem;
 	}
 	.card__button {

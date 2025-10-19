@@ -16,7 +16,7 @@
 	background-color: var(--white-background);
 	border-radius: 10px;
 	display: flex;
-	gap: 10rem;
+	gap: 5rem;
 	align-items: center;
 	justify-content: space-between;
 	.navbar__actions {
@@ -76,7 +76,7 @@
 	-ms-transform: translate(-50%, -50%);
 	-o-transform: translate(-50%, -50%);
 	z-index: 998;
-	width: 35rem;
+	width: 80vw;
 	height: 4.5rem;
 	display: inline-flex;
 	justify-content: space-between;
