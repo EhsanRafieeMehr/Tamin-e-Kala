@@ -24,13 +24,13 @@ function Consulting() {
 			</div>
 			<div className="consulting__collage">
 				<figure className="collage__img-1">
-					<img src="/img/cl1.png" alt="شخصی در حال مکالمه" />
+					<img src="public\img\cl1.png" alt="شخصی در حال مکالمه" />
 				</figure>
 				<figure className="collage__img-2">
-					<img src="/img/cl2.png" alt="شخصی در حال مکالمه" />
+					<img src="public\img\cl2.png" alt="شخصی در حال مکالمه" />
 				</figure>
 				<figure className="collage__img-3">
-					<img src="/img/cl3.png" alt="شخصی در حال مکالمه" />
+					<img src="public\img\cl3.png" alt="شخصی در حال مکالمه" />
 				</figure>
 			</div>
 			<div className="stats__container">

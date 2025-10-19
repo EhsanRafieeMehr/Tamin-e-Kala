@@ -122,9 +122,9 @@
 	position: absolute !important;
 	height: 3.5rem;
 	width: 3.5rem;
-
 	color: transparent !important;
 	top: 59% !important;
+	cursor: pointer;
 }
 .myProvidersSwiper .swiper-button-next {
 	left: 3% !important;
@@ -186,7 +186,7 @@
 			-o-transform: translate(-50%, -50%);
 		}
 	}
-	.providersSlide {
+	.myProvidersSwiper .providersSlide {
 		width: 17rem !important;
 		height: 19rem !important;
 		padding: 2.6rem 3rem 2rem 3rem;

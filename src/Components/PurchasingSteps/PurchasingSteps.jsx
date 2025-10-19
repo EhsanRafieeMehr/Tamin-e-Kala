@@ -131,7 +131,7 @@ function PurchasingSteps() {
 				</div>
 				<div className="steps__image">
 					<figure className="steps__image__bcgimg">
-						<img src="/img/steps1.jpg" alt="مردی در حال بار زدن وسایل" />
+						<img src="public\img\steps1.jpg" alt="مردی در حال بار زدن وسایل" />
 						<div class="steps__image__badge">
 							<svg viewBox="0 0 200 200" class="badge__svg">
 								<circle cx="100" cy="100" r="95" fill="#ED4545" />
@@ -163,7 +163,7 @@ function PurchasingSteps() {
 						</div>
 					</figure>
 					<figure className="steps__image__frgimg">
-						<img src="/img/steps2.jpg" alt="کارگری در حال لبخند زدن" />
+						<img src="public\img\steps2.jpg" alt="کارگری در حال لبخند زدن" />
 					</figure>
 				</div>
 			</div>

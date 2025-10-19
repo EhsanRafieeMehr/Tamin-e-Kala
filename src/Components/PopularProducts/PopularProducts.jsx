@@ -23,7 +23,7 @@ function PopularProducts() {
 			</div>
 			<div className="products__container">
 				<div className="products__item">
-					<img src="/img/p1.png" alt="کاپلر مدل 250 سانت" className="products__item__image" />
+					<img src="public\img\p1.png" alt="کاپلر مدل 250 سانت" className="products__item__image" />
 					<div className="products__item__info">
 						<h3 className="products__item__info__title">کاپلر مدل 250 سانت</h3>
 						<div className="products__item__info__desc">
@@ -39,7 +39,11 @@ function PopularProducts() {
 					</div>
 				</div>
 				<div className="products__item">
-					<img src="/img/p2.png" alt="نوار زرد اخطار 25 سانت" className="products__item__image" />
+					<img
+						src="public\img\p2.png"
+						alt="نوار زرد اخطار 25 سانت"
+						className="products__item__image"
+					/>
 					<div className="products__item__info">
 						<h3 className="products__item__info__title">نوار زرد اخطار 25 سانت</h3>
 						<div className="products__item__info__desc">
@@ -55,7 +59,7 @@ function PopularProducts() {
 					</div>
 				</div>
 				<div className="products__item">
-					<img src="/img/p3.png" alt="شیر فلکه 100 عددی" className="products__item__image" />
+					<img src="public\img\p3.png" alt="شیر فلکه 100 عددی" className="products__item__image" />
 					<div className="products__item__info">
 						<h3 className="products__item__info__title">شیر فلکه 100 عددی</h3>
 						<div className="products__item__info__desc">
@@ -71,7 +75,7 @@ function PopularProducts() {
 					</div>
 				</div>
 				<div className="products__item">
-					<img src="/img/p4.png" alt="نوار بیتوسل" className="products__item__image" />
+					<img src="public\img\p4.png" alt="نوار بیتوسل" className="products__item__image" />
 					<div className="products__item__info">
 						<h3 className="products__item__info__title">نوار بیتوسل</h3>
 						<div className="products__item__info__desc">
@@ -87,7 +91,7 @@ function PopularProducts() {
 					</div>
 				</div>
 				<div className="products__item">
-					<img src="/img/p5.png" alt="سه راهی 25 سانت" className="products__item__image" />
+					<img src="public\img\p5.png" alt="سه راهی 25 سانت" className="products__item__image" />
 					<div className="products__item__info">
 						<h3 className="products__item__info__title">سه راهی 25 سانت</h3>
 						<div className="products__item__info__desc">
@@ -103,7 +107,7 @@ function PopularProducts() {
 					</div>
 				</div>
 				<div className="products__item">
-					<img src="/img/p1.png" alt="کاپلر مدل 250 سانت" className="products__item__image" />
+					<img src="public\img\p1.png" alt="کاپلر مدل 250 سانت" className="products__item__image" />
 					<div className="products__item__info">
 						<h3 className="products__item__info__title">کاپلر مدل 250 سانت</h3>
 						<div className="products__item__info__desc">
@@ -119,7 +123,11 @@ function PopularProducts() {
 					</div>
 				</div>
 				<div className="products__item">
-					<img src="/img/p2.png" alt="نوار زرد اخطار 25 سانت" className="products__item__image" />
+					<img
+						src="public\img\p2.png"
+						alt="نوار زرد اخطار 25 سانت"
+						className="products__item__image"
+					/>
 					<div className="products__item__info">
 						<h3 className="products__item__info__title">نوار زرد اخطار 25 سانت</h3>
 						<div className="products__item__info__desc">
@@ -135,7 +143,7 @@ function PopularProducts() {
 					</div>
 				</div>
 				<div className="products__item">
-					<img src="/img/p3.png" alt="شیر فلکه 100 عددی" className="products__item__image" />
+					<img src="public\img\p3.png" alt="شیر فلکه 100 عددی" className="products__item__image" />
 					<div className="products__item__info">
 						<h3 className="products__item__info__title">شیر فلکه 100 عددی</h3>
 						<div className="products__item__info__desc">
@@ -151,7 +159,7 @@ function PopularProducts() {
 					</div>
 				</div>
 				<div className="products__item">
-					<img src="/img/p4.png" alt="نوار بیتوسل" className="products__item__image" />
+					<img src="public\img\p4.png" alt="نوار بیتوسل" className="products__item__image" />
 					<div className="products__item__info">
 						<h3 className="products__item__info__title">نوار بیتوسل</h3>
 						<div className="products__item__info__desc">
@@ -167,7 +175,7 @@ function PopularProducts() {
 					</div>
 				</div>
 				<div className="products__item">
-					<img src="/img/p5.png" alt="سه راهی 25 سانت" className="products__item__image" />
+					<img src="public\img\p5.png" alt="سه راهی 25 سانت" className="products__item__image" />
 					<div className="products__item__info">
 						<h3 className="products__item__info__title">سه راهی 25 سانت</h3>
 						<div className="products__item__info__desc">
