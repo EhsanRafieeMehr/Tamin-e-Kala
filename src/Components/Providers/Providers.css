@@ -186,6 +186,9 @@
 			-o-transform: translate(-50%, -50%);
 		}
 	}
+	.myProvidersSwiper {
+		height: 24rem;
+	}
 	.myProvidersSwiper .providersSlide {
 		width: 17rem !important;
 		height: 19rem !important;
