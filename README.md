@@ -17,8 +17,6 @@ The frontend is fully responsive, visually appealing, and optimized for performa
 - ✅ Responsive design for desktop and mobile
 - ⚡ Fast and optimized UI
 - 🎨 Modern, clean, and consistent layout
-- 🔍 Product browsing and search interface
-- 🛍️ Shopping cart & product detail pages
 - 💬 Interactive UI elements and smooth transitions
 
 ---
