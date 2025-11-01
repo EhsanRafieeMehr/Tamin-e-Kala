@@ -49,7 +49,7 @@ function ProductsCategory() {
 							/>
 						</svg>
 					</span>
-					<img src="img/g2.png" alt="عکس لوله فولادی" />
+					<img src="public\img\g2.png" alt="عکس لوله فولادی" />
 				</a>
 				<a href="#" className="category__grid__item category__grid__item--3">
 					<p>

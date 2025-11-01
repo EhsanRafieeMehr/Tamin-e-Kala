@@ -170,7 +170,7 @@ function Blog() {
 						<button className="card__button">ادامه مطلب</button>
 					</SwiperSlide>
 					<SwiperSlide className="card">
-						<img className="card__image" src="img/c3.png" alt=" عکس ساخت و ساز" />
+						<img className="card__image" src="public\img\c3.png" alt=" عکس ساخت و ساز" />
 						<h3 className="card__title">راهنمای خرید محصولات ساختمانی برای شروع ساخت و ساز!</h3>
 						<p className="card__category">دسته بندی : ساختمانی</p>
 						<p className="card__content">
